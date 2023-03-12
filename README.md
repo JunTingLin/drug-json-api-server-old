@@ -2,7 +2,7 @@
 
 ## 不可更動之假資料(模擬回應正常，但資料不更新)
 
-https://my-json-server.typicode.com/JunTingLin/drug-json-api-server
+https://my-json-server.typicode.com/JunTingLin/drug-json-api-server-old
 
 
 | 目的       | 方法        | URL         |
