@@ -1,0 +1,92 @@
+{
+  "drugsRecords": [
+    {
+      "id": 1,
+      "dosage": 1,
+      "stock": 28,
+      "timeSlot": [
+        "08:00:00",
+        "12:00:00",
+        "19:00:00"
+      ],
+      "startDate": "2022/04/01",
+      "endDate": "2022/04/11",
+      "drug": {
+        "id": 235,
+        "name": "apple",
+        "hospitalDepartment": "婦產科",
+        "appearance": "淺黃色圓扁錠，一面刻痕雙側77C字樣，一面有商標圖案",
+        "indications": "消炎止痛",
+        "sideEffect": "可能發生罕見但嚴重之皮膚過敏反應"
+      },
+      "interactingDrugs": [
+        {
+          "id": 548,
+          "level": "Major",
+          "cause": "混合使用會顯著降低的血氧濃度。這可能會導致癲癇發作失控或行為改變。"
+        },
+        {
+          "id": 981,
+          "level": "Moderate",
+          "cause": ""
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "dosage": 1,
+      "stock": 28,
+      "timeSlot": [
+        "12:00:00",
+        "19:00:00"
+      ],
+      "startDate": "2022/04/01",
+      "endDate": "2022/04/15",
+      "drug": {
+        "id": 548,
+        "name": "banana",
+        "hospitalDepartment": "骨科",
+        "appearance": "",
+        "indications": "肌肉鬆弛劑",
+        "sideEffect": "服藥期間可能會有思睡感"
+      },
+      "interactingDrugs": [
+        {
+          "id": 235,
+          "level": "Major",
+          "cause": "混合使用會顯著降低的血氧濃度。這可能會導致癲癇發作失控或行為改變。"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "dosage": 1,
+      "stock": 28,
+      "timeSlot": [
+        "22:00:00"
+      ],
+      "startDate": "2022/04/01",
+      "endDate": "2022/04/29",
+      "drug": {
+        "id": 981,
+        "name": "candy",
+        "hospitalDepartment": "精神科",
+        "appearance": "",
+        "indications": "治療濕疹、扁平苔癬、牛皮癬",
+        "sideEffect": ""
+      },
+      "interactingDrugs": [
+        {
+          "id": 235,
+          "level": "Moderate",
+          "cause": ""
+        }
+      ]
+    }
+  ],
+  "historyRecord":[
+    {
+      "id": 1
+    }
+  ]
+}
