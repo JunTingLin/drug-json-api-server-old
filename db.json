@@ -1,5 +1,5 @@
 {
-  "drugsRecords": [
+  "records": [
     {
       "id": 1,
       "dosage": 1,
@@ -82,11 +82,6 @@
           "cause": ""
         }
       ]
-    }
-  ],
-  "historyRecord":[
-    {
-      "id": 1
     }
   ]
 }
